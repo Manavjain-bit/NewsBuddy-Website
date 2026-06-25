@@ -1,0 +1,29 @@
+<!-- 
+  📰 NewsBuddy — my first big React-ish project!)
+-->
+<link rel="stylesheet" href="styles.css">
+
+<div id="newsbuddy-root">
+  <div class="nb-wrap">
+    <div class="nb-header">
+      <h1 class="nb-title">📰 News<span>Buddy</span></h1>
+      <div class="nb-subtitle">all ur news in one place. </div>
+    </div>
+
+    <div class="nb-search-row">
+      <input id="nb-search" class="nb-search" placeholder="search articles..." />
+      <button class="nb-btn" id="nb-search-btn">🔍 Search</button>
+      <button class="nb-btn" id="nb-refresh-btn" style="background:#fff3a3;">🔄 Refresh</button>
+    </div>
+
+    <div class="nb-tabs" id="nb-tabs"></div>
+    <div class="nb-status" id="nb-status">loading top stories...</div>
+    <div class="nb-grid" id="nb-grid"></div>
+  </div>
+
+  <footer class="nb-footer"> made with ☕ and a lot of stackoverflow — NewsBuddy 2026</footer>
+</div>
+
+<div class="nb-toast" id="nb-toast"></div>
+
+<script src="script.js"></script>
