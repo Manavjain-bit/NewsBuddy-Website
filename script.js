@@ -1,6 +1,6 @@
 (function () {
 
-  const API_KEY = "0ff4df498512690a15d5f03b302386d8";
+  const API_KEY = "Your_GNEWS_API_KEY";
 
   const CATEGORY_MAP = {
     "Top Stories": "general",
